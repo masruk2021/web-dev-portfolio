@@ -10,6 +10,7 @@
   /* header */
  header{
     background-image: url(images/developer.png), url(images/header_bg.png);
+    background-color: #edbc99;
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     
@@ -73,4 +74,80 @@ nav li a{
     justify-content: space-between;
     margin:0  35px 0px 200px;
 
+}
+/* second discription */
+.second-discription{
+    width:1140px;
+    background-color:#FFF8F3;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 140px;
+    margin: 100px 230px;
+   
+
+}
+ 
+.about{
+    padding:0 34px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+ 
+.discrip-1{
+  font-size:18px;
+  line-height:30px;
+}
+.dark-03{
+    color:#757575;
+    opacity: 100%;
+    /* font-weight: 500; */
+}
+.about-me-id p span{
+    /* dark-03 */
+    font-size: 20px;
+    font-weight: 700px;
+    
+}
+.dark-02{
+color:#161515;
+}
+.about-me-id {
+    display: flex;
+    /* justify-items:space-between; */
+    justify-content: space-between;
+    
+}
+/* third section */
+.third-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+/* .language-skill  styles */
+
+.language-sikll img{
+    height: 44px;
+    width:44px;
+}
+.language-sikll{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    gap:30px;
+}
+.language-sikll p{
+    font-size: 16px;
+    line-height:28px;
+}
+.lan-1{
+    padding:30px;
+ /* background-color: #FFFFFF; */
+ border: 1px solid;
+ border-radius: 2px ;
+ box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  
 }
